@@ -1,0 +1,33 @@
+{
+  "name": "@gabrielmougard/baryon-auto-update-manager",
+  "description": "Baryon Auto Update Manager",
+  "author": "Gabriel MOugard <gabriel.mougard@gmail.com>",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "electron-mocha"
+  },
+  "bugs": "https://github.com/gabrielmougard/baryon-auto-update-manager/issues",
+  "homepage": "https://github.com/gabrielmougard/baryon-auto-update-manager",
+  "publishConfig": { 
+    "registry": "https://npm.pkg.github.com/",
+    "access": "restricted" 
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabrielmougard/baryon-auto-update-manager.git"
+  },
+  "dependency-check": {
+    "ignore": []
+  },
+  "dependencies": {
+    "debug": "^4.1.1",
+    "got": "^10.4.0",
+    "lodash": "^4.17.15"
+  },
+  "devDependencies": {
+    "electron": "^8.0.1",
+    "electron-mocha": "^8.2.0",
+    "xvfb-maybe": "^0.2.1"
+  },
+  "license": "ISC"
+}
